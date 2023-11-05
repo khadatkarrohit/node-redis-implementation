@@ -1,0 +1,32 @@
+{
+  "name": "redis-implementation",
+  "version": "1.0.0",
+  "description": "Basic Node-Redis Implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadatkarrohit/node-redis-implementation.git"
+  },
+  "author": "Rohit Khadatkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadatkarrohit/node-redis-implementation/issues"
+  },
+  "homepage": "https://github.com/khadatkarrohit/node-redis-implementation#readme",
+  "dependencies": {
+    "axios": "^0.21.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mocha": "^10.2.0",
+    "redis": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
